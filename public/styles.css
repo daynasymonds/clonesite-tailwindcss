@@ -8,6 +8,7 @@
     --color-dark-orange: #EF7A54;
     --color-dark-green: #035346;
     --color-light-olive: #657069;
+    --color-mint: #ebfffc;
 }
 
 @layer components {
@@ -17,12 +18,28 @@
         max-width: 75rem;
     }
 
-    .heading-h3 {
+    .zeal-heading-h2 {
+        font-family: var(--font-sansita);
+        color: var(--color-dark-green);
+        font-size: 3rem;
+        font-weight: 700;    
+        line-height: 3.5rem;
+    }
+
+    .zeal-heading-h3 {
         font-family: var(--font-sansita);
         color: var(--color-dark-green);
         font-size: 2rem;
         font-weight: 700;    
         line-height: 2.5rem;
+    }
+
+    .zeal-heading-h4 {
+        font-family: var(--font-sansita);
+        color: white;
+        font-size: 2.625rem;
+        line-height: 3.375rem;
+        font-weight: 700;
     }
 
     .hero-heading {
@@ -33,6 +50,15 @@
       line-height: 5rem;
       padding-bottom: 2rem;
       padding-top: 2rem;
+    }
+
+    .zeal-overline-text {
+        color: var(--color-dark-orange);
+        letter-spacing:.2em; 
+        text-transform: uppercase;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+        font-weight: 900;
     }
 
     .zeal-text-size-regular {
@@ -74,5 +100,28 @@
         justify-content: center;
         align-items: center;
         display: flex
+    }
+
+    .zeal-social-item {
+        background-color: var(--color-dark-green);
+        border-radius: 100%;
+        min-height: 280px; 
+        max-height: 280px; 
+        max-width: 280px;
+        min-width: 280px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .zeal-subscribe-text {
+        color: var(--color-dark-orange);
+        font-size: 1.5rem;
+        font-family: var(--font-sansita);
+        font-weight: 700;
+        line-height: 1.875rem;
     }
 }
