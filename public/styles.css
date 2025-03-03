@@ -69,6 +69,11 @@
         
     }
 
+    .zeal-text-size-small {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+    }
+
     .zeal-button {
         display: inline-block;
         font-family: var(--font-sansita);
@@ -123,5 +128,28 @@
         font-family: var(--font-sansita);
         font-weight: 700;
         line-height: 1.875rem;
+    }
+
+    .zeal-price-tag {
+        font-family: var(--font-sansita);
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.9375rem;
+        padding: .5rem 1.25rem;
+        border-radius: 6.25rem;
+        color: white;
+        background-color: var(--color-dark-green);
+    }
+
+    .zeal-delicacy-item {
+        background-color: var(--color-light-orange);
+        border-radius: 3.125rem;
+        padding: 2.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
     }
 }

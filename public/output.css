@@ -188,6 +188,9 @@
   .h-\[40px\] {
     height: 40px;
   }
+  .h-\[200px\] {
+    height: 200px;
+  }
   .h-\[278px\] {
     height: 278px;
   }
@@ -199,6 +202,9 @@
   }
   .w-\[40px\] {
     width: 40px;
+  }
+  .w-\[199px\] {
+    width: 199px;
   }
   .w-\[310px\] {
     width: 310px;
@@ -214,6 +220,9 @@
   }
   .max-w-\[550px\] {
     max-width: 550px;
+  }
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -257,11 +266,20 @@
   .gap-\[8\.25rem\] {
     gap: 8.25rem;
   }
+  .rounded-\[3\.125rem\] {
+    border-radius: 3.125rem;
+  }
   .bg-light-orange {
     background-color: var(--color-light-orange);
   }
   .bg-mint {
     background-color: var(--color-mint);
+  }
+  .p-6 {
+    padding: calc(var(--spacing) * 6);
+  }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
@@ -292,6 +310,9 @@
   }
   .pb-24 {
     padding-bottom: calc(var(--spacing) * 24);
+  }
+  .pb-26 {
+    padding-bottom: calc(var(--spacing) * 26);
   }
   .text-center {
     text-align: center;
@@ -360,6 +381,10 @@
     color: var(--color-light-olive);
     line-height: 2rem;
   }
+  .zeal-text-size-small {
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+  }
   .zeal-button {
     display: inline-block;
     font-family: var(--font-sansita);
@@ -410,5 +435,26 @@
     font-family: var(--font-sansita);
     font-weight: 700;
     line-height: 1.875rem;
+  }
+  .zeal-price-tag {
+    font-family: var(--font-sansita);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.9375rem;
+    padding: .5rem 1.25rem;
+    border-radius: 6.25rem;
+    color: white;
+    background-color: var(--color-dark-green);
+  }
+  .zeal-delicacy-item {
+    background-color: var(--color-light-orange);
+    border-radius: 3.125rem;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
   }
 }
