@@ -152,4 +152,15 @@
         align-items: center;
         text-align: center;
     }
+
+    .zeal-form-input {
+        border: 1px solid white;
+        color: white;
+        background-color: transparent;
+        border-radius: 2.3125rem;
+        min-height: 52px;
+        margin-bottom: 1.25rem;
+        padding: .9375rem 1.25rem;
+        font-size: 1rem;
+    }
 }
