@@ -13,9 +13,11 @@
 
 @layer components {
     .global-padding {
-        margin-right: auto;
-        margin-left: auto ;
-        max-width: 75rem;
+        margin-inline-end: auto;
+        margin-inline-start: auto ;
+        max-inline-size: 75rem;
+        padding-inline-start: 2.5rem;
+        padding-inline-end: 2.5rem;
     }
 
     .zeal-heading-h2 {
@@ -48,8 +50,8 @@
       font-weight: 700;
       color: var(--color-dark-green);
       line-height: 5rem;
-      padding-bottom: 2rem;
-      padding-top: 2rem;
+      padding-block-end: 2rem;
+      padding-block-start: 2rem;
     }
 
     .zeal-overline-text {

@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html lang="en-AU">
 <html>
 <head>
   <meta charset="UTF-8">
@@ -7,24 +7,35 @@
 </head>
 <body class="font-lato zeal-text-size-regular">
     <main id="app">
-        <div class="bg-light-orange py-6 px-10 ">
-            <div id="header" class="global-padding flex justify-between pb-6 h-48">
-                <div class=""><img src="./images/nav_link.svg" width="217" height="80" alt="Zeal Taste logo" /></div>
-                <div class="flex"><img class="w-8 h-8" src="./images/icon_mail.svg" alt="Zeal Taste email" /><span class="text-dark-orange text-lg pr-20">abc@zealtaste.com</span></div>
+        
+        <div id="header" class="bg-light-orange pt-6 pb-6 w-full">
+            <div class="pl-4 pr-4 md:pl-10 md:pr-10">
+                <div class="ml-auto mr-auto w-full md:max-w-6xl">
+                    <div class="flex justify-between">
+                        <a class="relative float-left" target="_blank"><img src="./images/nav_link.svg" class="md:h-[80px] md:max-w-[217px] max-w-[7.125rem] w-full" alt="Zeal Taste logo" /></a>
+                        <a class="flex justify-center items-center text-dark-orange gap-2 px-4 text-[1.25rem]" target="_blank">
+                            <img class="align-middle w-full h-8 inline-block" src="./images/icon_mail.svg" alt="Zeal Taste email" />
+                            <div class="text-dark-orange text-lg pr-20 hidden md:inline-block">abc@zealtaste.com</div>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="global-padding flex justify-between"><span class="zeal-overline-text">SAVORY WHEELS</span></div>
-            <div id="section-hero" class="flex gap-44 items-center justify-between global-padding pb-14">
-                <div class="text-left max-w-[550px]">
-                    <h1 class="hero-heading">Zeal Taste: Culinary Delights on Wheels</h1>
-                    <p>Bringing Gourmet Street Food to Your Neighbourhood - Fresh, Flavorful, Fast!</p>
-                    <div class="pt-4"><button class="zeal-button">Book Your Table</button></div>
-                </div>
-                <div class="items-end">
-                    <img loading="lazy" class="h-[456px] w-[401px]" src="./images/landing_hero.avif" alt="Zeal Taste food truck" />
-                </div>
-            </div>            
         </div>
-        <div id="section-feature" class="global-padding flex flex-col justify-between pb-24">
+        
+        <!-- <div id="section-hero" class="">
+            <div class="max-w-[550px]">
+                <div><span class="zeal-overline-text">SAVORY WHEELS</span></div>
+                <h1 class="hero-heading">Zeal Taste: Culinary Delights on Wheels</h1>
+                <p>Bringing Gourmet Street Food to Your Neighbourhood - Fresh, Flavorful, Fast!</p>
+                <div class="pt-4"><button class="zeal-button">Book Your Table</button></div>
+            </div>
+            <div class="">
+                <img loading="lazy" class="" src="./images/landing_hero.avif" alt="Zeal Taste food truck" />
+            </div>
+        </div>
+                 -->
+
+        <!-- <div id="section-feature" class="global-padding flex flex-col justify-between pb-24">
             <div id="section-feature-wrapper" class="grid grid-cols-3 gap-[8.25rem] pt-24">
                 <div class="flex flex-col justify-start items-center gap-8">
                     <div class="zeal-feature-icon-wrapper">
@@ -40,7 +51,7 @@
                         <img class="w-[40px] h-[40px]" src="./images/icon_calendar_white.svg" alt="Zeal Taste hours of operation" />
                     </div>
                     <div class="flex flex-col justify-center items-center gap-6">
-                        <h3 class="heading-h3">Open Hours</h3>
+                        <h3 class="zeal-heading-h3">Open Hours</h3>
                         <div class="flex flex-col text-center max-w-[14.6875rem]">
                             <div>Mon To Fri</div>
                             <div>9:00 AM - 9:00 PM</div>
@@ -53,7 +64,7 @@
                         <img class="w-[40px] h-[40px]" src="./images/icon_calendar_white.svg" alt="Zeal Taste reservations" />
                     </div>
                     <div class="flex flex-col justify-center items-center gap-6">
-                        <h3 class="heading-h3">Reservation</h3>
+                        <h3 class="zeal-heading-h3">Reservation</h3>
                         <div class="flex flex-col text-center max-w-[14.6875rem]">+1 (800) 555-1234, abc@zealtaste.com</div>
                     </div>
                 </div>
@@ -184,32 +195,33 @@
         <div class="bg-dark-green pt-26 pb-26">
             <div id="section-reservation" class="global-padding flex flex-col justify-center items-center">
                 <div class="w-[100%] max-w-[35.9375rem] flex flex-col justify-center items-center">
-                <div class="zeal-overline-text">BOOK YOUR TABLE</div>
-                <h2 class="zeal-heading-h2 text-white pt-4">Make a Reservation</h2>
-                <div class="pt-8">Call +1 (800) 555-1234 from 5a - 11p daily, or book online</div>
-                <div>Reservations required for parties of 4 or more.</div>
-                <form class="flex flex-col pt-8 pb-8 w-[100%]" method="get">
-                    <div class="grid grid-cols-1 gap-4">
-                        <input class="zeal-form-input" type="text" placeholder="Your name" />
-                    </div>
-                    <div class="grid grid-cols-2 gap-4">
-                        <input class="zeal-form-input" type="tel" placeholder="Phone" />
-                        <input class="zeal-form-input" type="email" placeholder="Email" />
-                        <input class="zeal-form-input" type="datetime" placeholder="Date time" />
-                        <input class="zeal-form-input" type="number" placeholder="Seats" />
-                    </div>
-                    <div class="grid grid-cols-1 gap-4">
-                        <textarea class="zeal-form-input resize-none min-h-40 pt-[.75rem] text-[1rem]" maxlength="5000" placeholder="Message"></textarea>
-                    </div>
-                    <input type="submit" class="zeal-button self-center" value="Book Your Table" />
-                </form>
+                    <div class="zeal-overline-text">BOOK YOUR TABLE</div>
+                    <h2 class="zeal-heading-h2 text-white pt-4">Make a Reservation</h2>
+                    <div class="pt-8">Call +1 (800) 555-1234 from 5a - 11p daily, or book online</div>
+                    <div>Reservations required for parties of 4 or more.</div>
+                    <form class="flex flex-col pt-8 pb-8 w-[100%]" method="get">
+                        <div class="grid grid-cols-1 gap-4">
+                            <input class="zeal-form-input" type="text" placeholder="Your name" />
+                        </div>
+                        <div class="grid grid-cols-2 gap-4">
+                            <input class="zeal-form-input" type="tel" placeholder="Phone" />
+                            <input class="zeal-form-input" type="email" placeholder="Email" />
+                            <input class="zeal-form-input" type="datetime" placeholder="Date time" />
+                            <input class="zeal-form-input" type="number" placeholder="Seats" />
+                        </div>
+                        <div class="grid grid-cols-1 gap-4">
+                            <textarea class="zeal-form-input resize-none min-h-40 pt-[.75rem] text-[1rem]" maxlength="5000" placeholder="Message"></textarea>
+                        </div>
+                        <input type="submit" class="zeal-button self-center" value="Book Your Table" />
+                    </form>
 
-                
-                <div class="self-center">Developed By <a class="hover:text-white" href="http://zealousweb.com" target="_blank">ZealousWeb</a></div>
-                <div class="self-center"><a class="hover:text-white" href="https://webflow.com/templates/html/zealtaste-food-website-template#:~:text=Zeal%20Taste%20is%20a%20sleek,food%20trucks%20and%20culinary%20ventures." target="_blank">Licenses</a>
-                
+                    
+                    <div class="self-center">Developed By <a class="hover:text-white" href="http://zealousweb.com" target="_blank">ZealousWeb</a></div>
+                    <div class="self-center"><a class="hover:text-white" href="https://webflow.com/templates/html/zealtaste-food-website-template#:~:text=Zeal%20Taste%20is%20a%20sleek,food%20trucks%20and%20culinary%20ventures." target="_blank">Licenses</a>
+                </div>
             </div>
-        </div>
+            </div>
+        </div> -->
     </main>
 </body>
 </html>
