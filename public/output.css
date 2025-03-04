@@ -205,6 +205,9 @@
   .h-\[278px\] {
     height: 278px;
   }
+  .h-\[456px\] {
+    height: 456px;
+  }
   .h-\[504px\] {
     height: 504px;
   }
@@ -235,6 +238,9 @@
   .w-\[326px\] {
     width: 326px;
   }
+  .w-\[401px\] {
+    width: 401px;
+  }
   .w-\[475px\] {
     width: 475px;
   }
@@ -243,9 +249,6 @@
   }
   .max-w-\[35\.9375rem\] {
     max-width: 35.9375rem;
-  }
-  .max-w-\[35\.\] {
-    max-width: 35.;
   }
   .max-w-\[48\.2rem\] {
     max-width: 48.2rem;
@@ -280,9 +283,6 @@
   .items-end {
     align-items: flex-end;
   }
-  .items-stretch {
-    align-items: stretch;
-  }
   .justify-between {
     justify-content: space-between;
   }
@@ -294,15 +294,6 @@
   }
   .justify-start {
     justify-content: flex-start;
-  }
-  .justify-stretch {
-    justify-content: stretch;
-  }
-  .justify-items-center {
-    justify-items: center;
-  }
-  .justify-items-stretch {
-    justify-items: stretch;
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
@@ -417,14 +408,6 @@
   }
   .text-white {
     color: var(--color-white);
-  }
-  .hover\:to-white {
-    &:hover {
-      @media (hover: hover) {
-        --tw-gradient-to: var(--color-white);
-        --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
-      }
-    }
   }
   .hover\:text-white {
     &:hover {
@@ -578,46 +561,4 @@
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
-}
-@property --tw-gradient-position {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-gradient-from {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #0000;
-}
-@property --tw-gradient-via {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #0000;
-}
-@property --tw-gradient-to {
-  syntax: "<color>";
-  inherits: false;
-  initial-value: #0000;
-}
-@property --tw-gradient-stops {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-gradient-via-stops {
-  syntax: "*";
-  inherits: false;
-}
-@property --tw-gradient-from-position {
-  syntax: "<length-percentage>";
-  inherits: false;
-  initial-value: 0%;
-}
-@property --tw-gradient-via-position {
-  syntax: "<length-percentage>";
-  inherits: false;
-  initial-value: 50%;
-}
-@property --tw-gradient-to-position {
-  syntax: "<length-percentage>";
-  inherits: false;
-  initial-value: 100%;
 }
