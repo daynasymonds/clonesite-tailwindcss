@@ -25,12 +25,17 @@
         @apply lg:max-w-[73.125rem];
     }
 
+    .container-large {
+        @apply ml-auto;
+        @apply mr-auto;
+        @apply w-full; 
+        @apply max-w-[77rem];
+    }
+
     .zeal-heading-h2 {
-        font-family: var(--font-sansita);
-        color: var(--color-dark-green);
-        font-size: 3rem;
-        font-weight: 700;    
-        line-height: 3.5rem;
+        @apply font-sansita text-dark-green text-[2.5rem] font-bold leading-10;
+
+        @apply md:leading-14 md:text-[3rem];
     }
 
     .zeal-heading-h3 {
@@ -137,18 +142,7 @@
     }
 
     .zeal-social-item {
-        background-color: var(--color-dark-green);
-        border-radius: 100%;
-        min-height: 280px; 
-        max-height: 280px; 
-        max-width: 280px;
-        min-width: 280px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 1.5rem;
+        @apply flex flex-col justify-center items-center text-center bg-dark-green rounded-full gap-6 max-w-[17.375rem] max-h-[17.375rem] w-full h-full py-[3.75rem] px-[3.5625rem] decoration-[none];
     }
 
     .zeal-subscribe-text {
