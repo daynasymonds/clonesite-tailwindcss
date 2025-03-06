@@ -14,6 +14,7 @@
 @layer components {
     .global-padding {
         @apply px-4; 
+
         @apply lg:px-10;
     }
 
@@ -21,7 +22,7 @@
         @apply ml-auto;
         @apply mr-auto;
         @apply w-full; 
-        @apply lg:max-w-6xl;
+        @apply lg:max-w-[73.125rem];
     }
 
     .zeal-heading-h2 {
@@ -33,11 +34,14 @@
     }
 
     .zeal-heading-h3 {
-        font-family: var(--font-sansita);
-        color: var(--color-dark-green);
-        font-size: 2rem;
-        font-weight: 700;    
-        line-height: 2.5rem;
+        @apply font-sansita;
+        @apply text-dark-green;
+        @apply text-[1.5rem];
+        @apply font-bold;
+        @apply leading-7;
+
+        @apply md:text-[2rem];
+        @apply md:leading-10;
     }
 
     .zeal-heading-h4 {
@@ -77,8 +81,8 @@
         @apply leading-6;
         @apply decoration-[none];
 
-        @apply lg:text-[1.25rem];
-        @apply lg:leading-8;
+        @apply md:text-[1.25rem];
+        @apply md:leading-8;
     }
 
     .zeal-text-size-small {
@@ -110,15 +114,26 @@
     }
 
     .zeal-feature-icon-wrapper {
-        background-color: var(--color-dark-orange) ;
-        border-radius: 100%;
-        min-height: 80px; 
-        max-height: 80px; 
-        max-width: 80px;
-        min-width: 80px;
-        justify-content: center;
-        align-items: center;
-        display: flex
+        @apply bg-dark-orange;
+        @apply rounded-full;
+        @apply h-full;
+        @apply min-h-[60px];
+        @apply min-w-[60px];
+        @apply max-h-[80px];
+        @apply max-w-[80px];
+        @apply justify-center;
+        @apply items-center;
+        @apply flex;
+
+        @apply md:w-full;
+        @apply md:max-w-[80px];
+        @apply md:min-h-[80px];
+    }
+
+    .zeal-featured-text {
+        @apply flex;
+        @apply text-center;
+        @apply flex-col;
     }
 
     .zeal-social-item {
