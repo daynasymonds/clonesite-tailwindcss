@@ -21,7 +21,8 @@
     .container-medium {
         @apply ml-auto;
         @apply mr-auto;
-        @apply w-full; 
+        @apply w-full;
+         
         @apply lg:max-w-[73.125rem];
     }
 

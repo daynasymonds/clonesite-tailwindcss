@@ -25,8 +25,8 @@
         <div id="section-hero" class="flex flex-col bg-light-orange justify-center pt-12 pb-12 lg:pt-20 lg:pb-20 lg:relative">
             <div class="global-padding">
                 <div class="container-medium">
-                    <div class="flex flex-col gap-10 justify-start place-items-center lg:gap-44 lg:flex-row">
-                        <div class="flex relative flex-col text-center justify-center items-center max-w-none gap-2.5 justify-items-center lg:gap-6 lg:place-items-start lg:max-w-[550px] lg:w-full lgmd:relative">
+                    <div id="hero-grid" class="flex flex-col gap-10 justify-start place-items-center lg:gap-44 lg:flex-row">
+                        <div id="hero-content" class="flex relative flex-col text-center justify-center items-center max-w-none gap-2.5 justify-items-center lg:gap-6 lg:place-items-start lg:max-w-[550px] lg:w-full lg:relative">
                             <div class="zeal-overline-text">SAVORY WHEELS</div>
                             <h1 class="hero-heading">Zeal Taste: Culinary Delights on Wheels</h1>
                             <div class="max-w-[80%] text-center lg:max-w-md lg:w-full lg:text-left">
@@ -34,7 +34,7 @@
                             </div>
                             <a class="zeal-button" target="_blank" href="#footer">Book Your Table</a>
                         </div>
-                        <div class="order-[-9999] max-w-[21.4375rem] pt-[24rem] justify-center items-center flex relative w-full h-full sm:max-w-[25.0625rem] sm:pt-[28rem] lg:order-none lg:max-w-[25.0625rem] lg:pt-[28.5rem]">
+                        <div id="hero-img-wrapper" class="order-[-9999] max-w-[21.4375rem] pt-[24rem] justify-center items-center flex relative w-full h-full ">
                             <img loading="lazy" class="object-cover object-[50%_50%] w-full h-full absolute mt-0 inset-0 rounded-tl-[14.875rem] rounded-tr-[14.875rem]" src="./images/landing_hero.avif" alt="Zeal Taste food truck" />
                         </div>
                     </div>
@@ -43,7 +43,7 @@
         </div>
                 
 
-        <div id="section-feature" class="flex flex-col justify-center pt-12 pb-12 md:py-16">
+        <!-- <div id="section-feature" class="flex flex-col justify-center pt-12 pb-12 md:py-16">
             <div class="global-padding">
                 <div class="container-medium">
                     <div id="section-feature-wrapper" class="flex flex-col justify-center items-center lg:block lg:justify-between">
@@ -83,9 +83,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="bg-mint flex flex-col justify-center pt-12 pb-12">
+        <!-- <div class="bg-mint flex flex-col justify-center pt-12 pb-12">
             <div class="global-padding">
                 <div class="container-large">
                     <div id="section-ourstory" class="flex flex-col gap-24 sm:gap-[6.25rem]">
@@ -127,58 +127,62 @@
                 </div>
                 
             </div>
-        </div>
+        </div> -->
 
-        <!--<div class="pt-26 pb-26">
-            <div id="section-delicacies" class="global-padding flex flex-col justify-center items-center">
-                <div class="zeal-overline-text">FEATURED DELICACIES</div>
-                <h2 class="zeal-heading-h2 pt-4">Signature Selections</h2>
-                <div class="grid grid-cols-2 pt-8">
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item">
-                            <img class="h-[200px] w-[199px]" src="./images/trufflemac.avif" alt="Zeal Taste Truffle Mac & Cheese">
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Truffle Mac & Cheese</div>
-                                <div class="zeal-text-size-small">Creamy macaroni and cheese infused with the rich aroma of truffle oil, topped with a crispy breadcrumb crust. A luxurious twist on a classic comfort dish.</div>
+        <!-- <div class="flex flex-col justify-center pt-12 pb-12">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="section-delicacies" class="grid grid-cols-1 w-full gap-10">
+                        <div class="zeal-overline-text">FEATURED DELICACIES</div>
+                        <h2 class="zeal-heading-h2 pt-4">Signature Selections</h2>
+                        <div class="grid grid-cols-2 pt-8">
+                            <div class="p-6">
+                                <div class="zeal-delicacy-item">
+                                    <img class="h-[200px] w-[199px]" src="./images/trufflemac.avif" alt="Zeal Taste Truffle Mac & Cheese">
+                                    <div class="flex flex-col justify-center items-center gap-6">
+                                        <div class="zeal-heading-h3">Truffle Mac & Cheese</div>
+                                        <div class="zeal-text-size-small">Creamy macaroni and cheese infused with the rich aroma of truffle oil, topped with a crispy breadcrumb crust. A luxurious twist on a classic comfort dish.</div>
+                                    </div>
+                                    <div class="zeal-price-tag">$12</div>
+                                </div>
                             </div>
-                            <div class="zeal-price-tag">$12</div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item"">
-                            <div><img class="h-[200px] w-[199px]" src="./images/beefsliders.avif" alt="Zeal Taste Gourmet Beef Sliders"></div>
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Gourmet Beef Sliders</div>
-                                <div class="zeal-text-size-small">Juicy beef patties grilled to perfection, served on toasted brioche buns with caramelized onions, sharp cheddar, and a tangy aioli sauce.</div>
+                            <div class="p-6">
+                                <div class="zeal-delicacy-item"">
+                                    <div><img class="h-[200px] w-[199px]" src="./images/beefsliders.avif" alt="Zeal Taste Gourmet Beef Sliders"></div>
+                                    <div class="flex flex-col justify-center items-center gap-6">
+                                        <div class="zeal-heading-h3">Gourmet Beef Sliders</div>
+                                        <div class="zeal-text-size-small">Juicy beef patties grilled to perfection, served on toasted brioche buns with caramelized onions, sharp cheddar, and a tangy aioli sauce.</div>
+                                    </div>
+                                    <div class="zeal-price-tag">$15</div>
+                                </div>
                             </div>
-                            <div class="zeal-price-tag">$15</div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item"">
-                            <div><img class="h-[200px] w-[199px]" src="./images/shrimptaco.avif" alt="Zeal Taste Shrimp Tacos"></div>
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Spicy Shrimp Tacos</div>
-                                <div class="zeal-text-size-small">Fresh shrimp marinated in a spicy blend, grilled and served in soft tortillas with crunchy slaw, avocado crema, and a zesty lime drizzle.</div>
+                            <div class="p-6">
+                                <div class="zeal-delicacy-item"">
+                                    <div><img class="h-[200px] w-[199px]" src="./images/shrimptaco.avif" alt="Zeal Taste Shrimp Tacos"></div>
+                                    <div class="flex flex-col justify-center items-center gap-6">
+                                        <div class="zeal-heading-h3">Spicy Shrimp Tacos</div>
+                                        <div class="zeal-text-size-small">Fresh shrimp marinated in a spicy blend, grilled and served in soft tortillas with crunchy slaw, avocado crema, and a zesty lime drizzle.</div>
+                                    </div>
+                                    <div class="zeal-price-tag">$14</div>
+                                </div>
                             </div>
-                            <div class="zeal-price-tag">$14</div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item"">
-                            <div><img class="h-[200px] w-[199px]" src="./images/vegtempura.avif" alt="Zeal Taste Vegetable Tempura"></div>
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Vegetable Tempura</div>
-                                <div class="zeal-text-size-small">A colorful assortment of seasonal vegetables lightly battered and fried to a golden crisp, accompanied by a savory dipping sauce and a side of pickled ginger.</div>
+                            <div class="p-6">
+                                <div class="zeal-delicacy-item"">
+                                    <div><img class="h-[200px] w-[199px]" src="./images/vegtempura.avif" alt="Zeal Taste Vegetable Tempura"></div>
+                                    <div class="flex flex-col justify-center items-center gap-6">
+                                        <div class="zeal-heading-h3">Vegetable Tempura</div>
+                                        <div class="zeal-text-size-small">A colorful assortment of seasonal vegetables lightly battered and fried to a golden crisp, accompanied by a savory dipping sauce and a side of pickled ginger.</div>
+                                    </div>
+                                    <div class="zeal-price-tag">$10</div>
+                                </div>
                             </div>
-                            <div class="zeal-price-tag">$10</div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="bg-mint pt-26 pb-26">
+        <!--<div class="bg-mint pt-26 pb-26">
             <div id="section-aboutus" class="global-padding flex flex-col justify-center items-center">
                 <div class="zeal-overline-text">ABOUT US</div>
                 <h2 class="zeal-heading-h2 pt-4">Voices of Flavor</h2>
