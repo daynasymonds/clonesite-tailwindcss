@@ -41,14 +41,9 @@
     }
 
     .zeal-heading-h3 {
-        @apply font-sansita;
-        @apply text-dark-green;
-        @apply text-[1.5rem];
-        @apply font-bold;
-        @apply leading-7;
+        @apply font-sansita text-dark-green text-[1.5rem] font-bold leading-7;
 
-        /* @apply md:text-[2rem];
-        @apply md:leading-10; */
+        @apply md:text-[2rem] md:leading-10;
     }
 
     .zeal-heading-h4 {
@@ -60,18 +55,11 @@
     }
 
     .hero-heading {
-      @apply font-sansita;
-      @apply text-[2.5rem];
-      @apply font-bold;
-      @apply text-dark-green;
-      @apply text-center;
-      @apply leading-12;
+      @apply font-sansita text-[2.5rem] font-bold  text-dark-green text-center leading-12;
 
       @apply md:text-[2.625rem] md:leading-[2.625rem];
     
-      @apply lg:text-left;
-      @apply lg:text-[4.5rem];
-      @apply lg:leading-20;
+      @apply lg:text-left lg:text-[4.5rem] lg:leading-20;
     }
 
     .zeal-overline-text {
@@ -118,20 +106,9 @@
     }
 
     .zeal-feature-icon-wrapper {
-        @apply bg-dark-orange;
-        @apply rounded-full;
-        @apply h-full;
-        @apply min-h-[60px];
-        @apply min-w-[60px];
-        @apply max-h-[80px];
-        @apply max-w-[80px];
-        @apply justify-center;
-        @apply items-center;
-        @apply flex;
+        @apply bg-dark-orange rounded-full h-full min-h-[60px] min-w-[60px] max-h-[80px] max-w-[80px] justify-center items-center flex;
 
-        /* @apply md:w-full;
-        @apply md:max-w-[80px];
-        @apply md:min-h-[80px]; */
+        @apply md:w-full md:max-w-[80px] md:min-h-[80px];
     }
 
     .zeal-featured-text {
