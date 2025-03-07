@@ -12,10 +12,11 @@
 }
 
 @layer components {
+
     .global-padding {
         @apply px-4; 
 
-        @apply lg:px-10;
+        @apply md:px-10;
     }
 
     .container-medium {
@@ -23,7 +24,7 @@
         @apply mr-auto;
         @apply w-full;
          
-        @apply lg:max-w-[73.125rem];
+        @apply md:max-w-[73.125rem];
     }
 
     .container-large {
@@ -36,7 +37,7 @@
     .zeal-heading-h2 {
         @apply font-sansita text-dark-green text-[2.5rem] font-bold leading-10;
 
-        @apply md:leading-14 md:text-[3rem];
+        /* @apply md:leading-14 md:text-[3rem]; */
     }
 
     .zeal-heading-h3 {
@@ -46,8 +47,8 @@
         @apply font-bold;
         @apply leading-7;
 
-        @apply md:text-[2rem];
-        @apply md:leading-10;
+        /* @apply md:text-[2rem];
+        @apply md:leading-10; */
     }
 
     .zeal-heading-h4 {
@@ -65,6 +66,8 @@
       @apply text-dark-green;
       @apply text-center;
       @apply leading-12;
+
+      @apply md:text-[2.625rem] md:leading-[2.625rem];
     
       @apply lg:text-left;
       @apply lg:text-[4.5rem];
@@ -81,14 +84,9 @@
     }
 
     .zeal-text-size-regular {
-        @apply text-[1rem];
-        @apply font-normal;
-        @apply text-light-olive;
-        @apply leading-6;
-        @apply decoration-[none];
+        @apply text-[1rem] font-normal text-light-olive leading-6 decoration-[none];
 
-        @apply md:text-[1.25rem];
-        @apply md:leading-8;
+        @apply md:text-[1.25rem] md:leading-8;
     }
 
     .zeal-text-size-small {
@@ -131,9 +129,9 @@
         @apply items-center;
         @apply flex;
 
-        @apply md:w-full;
+        /* @apply md:w-full;
         @apply md:max-w-[80px];
-        @apply md:min-h-[80px];
+        @apply md:min-h-[80px]; */
     }
 
     .zeal-featured-text {
