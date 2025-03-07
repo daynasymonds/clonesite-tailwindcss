@@ -35,9 +35,9 @@
     }
 
     .zeal-heading-h2 {
-        @apply font-sansita text-dark-green text-[2.5rem] font-bold leading-10;
+        @apply font-sansita text-dark-green text-[2rem] font-bold leading-10;
 
-        /* @apply md:leading-14 md:text-[3rem]; */
+        @apply md:leading-14 md:text-[3rem];
     }
 
     .zeal-heading-h3 {
