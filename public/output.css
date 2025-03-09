@@ -276,6 +276,9 @@
   .w-full {
     width: 100%;
   }
+  .max-w-\[2\.5rem\] {
+    max-width: 2.5rem;
+  }
   .max-w-\[14\.6875rem\] {
     max-width: 14.6875rem;
   }
@@ -294,6 +297,9 @@
   .max-w-\[80\%\] {
     max-width: 80%;
   }
+  .max-w-\[1090px\] {
+    max-width: 1090px;
+  }
   .max-w-full {
     max-width: 100%;
   }
@@ -309,11 +315,20 @@
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .flex-col {
     flex-direction: column;
   }
+  .flex-row {
+    flex-direction: row;
+  }
   .place-items-center {
     place-items: center;
+  }
+  .place-items-stretch {
+    place-items: stretch;
   }
   .items-center {
     align-items: center;
@@ -333,6 +348,9 @@
   .justify-items-center {
     justify-items: center;
   }
+  .justify-items-stretch {
+    justify-items: stretch;
+  }
   .gap-0 {
     gap: calc(var(--spacing) * 0);
   }
@@ -348,6 +366,9 @@
   .gap-4 {
     gap: calc(var(--spacing) * 4);
   }
+  .gap-5 {
+    gap: calc(var(--spacing) * 5);
+  }
   .gap-7 {
     gap: calc(var(--spacing) * 7);
   }
@@ -360,8 +381,14 @@
   .gap-\[1\.875rem\] {
     gap: 1.875rem;
   }
+  .gap-\[5rem\] {
+    gap: 5rem;
+  }
   .gap-\[6\.25rem\] {
     gap: 6.25rem;
+  }
+  .gap-\[rem\] {
+    gap: rem;
   }
   .self-stretch {
     align-self: stretch;
@@ -413,6 +440,9 @@
   }
   .px-3\.5 {
     padding-inline: calc(var(--spacing) * 3.5);
+  }
+  .px-9 {
+    padding-inline: calc(var(--spacing) * 9);
   }
   .py-0 {
     padding-block: calc(var(--spacing) * 0);
@@ -659,6 +689,11 @@
       grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
+  .lg\:grid-cols-3 {
+    @media (width >= 64rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
   .lg\:flex-col {
     @media (width >= 64rem) {
       flex-direction: column;
@@ -737,6 +772,11 @@
   .lg\:py-20 {
     @media (width >= 64rem) {
       padding-block: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:py-\[6\.25rem\] {
+    @media (width >= 64rem) {
+      padding-block: 6.25rem;
     }
   }
   .lg\:pt-\[37\.5rem\] {
