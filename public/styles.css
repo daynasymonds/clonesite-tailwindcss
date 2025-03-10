@@ -9,6 +9,7 @@
     --color-dark-green: #035346;
     --color-light-olive: #657069;
     --color-mint: #ebfffc;
+    --color-white-60: #fff9;
 }
 
 @layer components {
@@ -94,11 +95,7 @@
     }
 
     .zeal-subscribe-text {
-        color: var(--color-dark-orange);
-        font-size: 1.5rem;
-        font-family: var(--font-sansita);
-        font-weight: 700;
-        line-height: 1.875rem;
+        @apply text-dark-orange text-[1.5rem] font-sansita font-bold leading-[1.875rem];
     }
 
     .zeal-price-tag {
@@ -118,13 +115,6 @@
     }
 
     .zeal-form-input {
-        border: 1px solid white;
-        color: white;
-        background-color: transparent;
-        border-radius: 2.3125rem;
-        min-height: 52px;
-        margin-bottom: 1.25rem;
-        padding: .9375rem 1.25rem;
-        font-size: 1rem;
+        @apply border-[1px] text-white bg-transparent rounded-[2.3125rem] min-h-[52px] mb-5 px-5 py-3.5 text-[1rem];
     }
 }
