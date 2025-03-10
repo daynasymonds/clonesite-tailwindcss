@@ -1,8 +1,11 @@
-<!doctype html">
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Dayna Symonds Portfolio Clone Website - Responsive design with Tailwind CSS</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dayna Symonds portfolio demonstration website using Tailwind CSS and responsive design." />
+  <meta http-equiv="content-security-policy" content="default-src 'self'; font-src https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com" />
   <link href="./output.css" rel="stylesheet">
 </head>
 <body class="m-[0px] zeal-text-size-regular font-lato font-normal">
@@ -248,20 +251,20 @@
                             <h2 class="zeal-heading-h2 text-white pt-4">Make a Reservation</h2>
                             <div class="pt-8">Call +1 (800) 555-1234 from 5a - 11p daily, or book online</div>
                             <div class="">Reservations required for parties of 4 or more.</div>
-                            <form class="flex flex-col pt-8 pb-8 w-[100%]" method="get">
+                            <form id="reservationForm" class="flex flex-col pt-8 pb-8 w-[100%]" method="get">
                                 <div class="grid grid-cols-1 gap-4">
-                                    <input class="zeal-form-input" type="text" placeholder="Your name" />
+                                    <input name="name" class="zeal-form-input" type="text" placeholder="Your name" autocomplete="on"/>
                                 </div>
                                 <div class="grid grid-cols-2 gap-4">
-                                    <input class="zeal-form-input" type="tel" placeholder="Phone" />
-                                    <input class="zeal-form-input" type="email" placeholder="Email" />
-                                    <input class="zeal-form-input" type="datetime" placeholder="Date time" />
-                                    <input class="zeal-form-input" type="number" placeholder="Seats" />
+                                    <input name="phone" class="zeal-form-input" type="tel" placeholder="Phone" autocomplete="on" />
+                                    <input name="email" class="zeal-form-input" type="email" placeholder="Email" autocomplete="on" />
+                                    <input name="reservationTime" class="zeal-form-input" type="datetime" placeholder="Date time" />
+                                    <input name="numSeats" class="zeal-form-input" type="number" placeholder="Seats" />
                                 </div>
                                 <div class="grid grid-cols-1 gap-4">
-                                    <textarea class="zeal-form-input resize-none min-h-40 pt-[.75rem] text-[1rem]" maxlength="5000" placeholder="Message"></textarea>
+                                    <textarea name="message" class="zeal-form-input resize-none min-h-40 pt-[.75rem] text-[1rem]" maxlength="5000" placeholder="Message"></textarea>
                                 </div>
-                                <input type="submit" class="zeal-button self-center" value="Book Your Table" />
+                                <input name="submit" type="submit" class="zeal-button self-center" value="Book Your Table" />
                             </form>
 
                             
