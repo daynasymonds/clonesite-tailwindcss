@@ -1,215 +1,278 @@
-<!doctype html>
-<html>
+<!doctype html">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
 </head>
-<body class="font-lato zeal-text-size-regular">
-    <main id="app">
-        <div class="bg-light-orange py-6 px-10 ">
-            <div id="header" class="global-padding flex justify-between pb-6 h-48">
-                <div class=""><img src="./images/nav_link.svg" width="217" height="80" alt="Zeal Taste logo" /></div>
-                <div class="flex"><img class="w-8 h-8" src="./images/icon_mail.svg" alt="Zeal Taste email" /><span class="text-dark-orange text-lg pr-20">abc@zealtaste.com</span></div>
-            </div>
-            <div class="global-padding flex justify-between"><span class="zeal-overline-text">SAVORY WHEELS</span></div>
-            <div id="section-hero" class="flex gap-44 items-center justify-between global-padding pb-14">
-                <div class="text-left max-w-[550px]">
-                    <h1 class="hero-heading">Zeal Taste: Culinary Delights on Wheels</h1>
-                    <p>Bringing Gourmet Street Food to Your Neighbourhood - Fresh, Flavorful, Fast!</p>
-                    <div class="pt-4"><button class="zeal-button">Book Your Table</button></div>
-                </div>
-                <div class="items-end">
-                    <img loading="lazy" class="h-[456px] w-[401px]" src="./images/landing_hero.avif" alt="Zeal Taste food truck" />
-                </div>
-            </div>            
-        </div>
-        <div id="section-feature" class="global-padding flex flex-col justify-between pb-24">
-            <div id="section-feature-wrapper" class="grid grid-cols-3 gap-[8.25rem] pt-24">
-                <div class="flex flex-col justify-start items-center gap-8">
-                    <div class="zeal-feature-icon-wrapper">
-                        <img class="w-[40px] h-[40px]" src="./images/icon_location_white.svg" alt="Zeal Taste location" />
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-6">
-                        <h3 class="zeal-heading-h3">Find Us</h3>
-                        <div class="flex flex-col text-center max-w-[14.6875rem]">1234 Innovation Drive Suite 567 Cityville, State 89012 Country</div>
-                    </div>
-                </div>
-                <div class="flex flex-col justify-start items-center gap-8">
-                    <div class="zeal-feature-icon-wrapper">
-                        <img class="w-[40px] h-[40px]" src="./images/icon_calendar_white.svg" alt="Zeal Taste hours of operation" />
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-6">
-                        <h3 class="heading-h3">Open Hours</h3>
-                        <div class="flex flex-col text-center max-w-[14.6875rem]">
-                            <div>Mon To Fri</div>
-                            <div>9:00 AM - 9:00 PM</div>
-                            <div>Sat 9:00 AM - 10 PM</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col justify-start items-center gap-8">
-                    <div class="zeal-feature-icon-wrapper">
-                        <img class="w-[40px] h-[40px]" src="./images/icon_calendar_white.svg" alt="Zeal Taste reservations" />
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-6">
-                        <h3 class="heading-h3">Reservation</h3>
-                        <div class="flex flex-col text-center max-w-[14.6875rem]">+1 (800) 555-1234, abc@zealtaste.com</div>
+<body class="m-[0px] zeal-text-size-regular font-lato font-normal">
+    <main>
+        
+        <section id="header" class="bg-light-orange py-6">
+            <div class="global-padding">
+                <div class="container-medium block">
+                    <div id="header-wrapper" class="grid grid-cols-2">
+                        <a class="pl-0 relative float-left" href="/" target="_blank">
+                            <img loading="lazy" src="./images/nav_link.svg" class="max-w-full align-middle" alt="Zeal Taste logo" />
+                        </a>
+                        <a class="flex justify-end items-center text-dark-orange gap-2 px-0 py-0 text-[1rem] w-full" target="_blank">
+                            <img class="align-middle inline-block" src="./images/icon_mail.svg" alt="Zeal Taste email" />
+                            <div class="text-dark-orange zeal-text-size-regular hidden md:inline-block">abc@zealtaste.com</div>
+                        </a> 
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="bg-mint pt-26 pb-26">
-            <div id="section-ourstory" class="global-padding flex flex-col justify-center items-center">
-                <div class="zeal-overline-text">OUR STORY</div>
-                <h2 class="zeal-heading-h2 pt-4">The Zeal Taste Adventure</h2>
-                <div class="zeal-text-size-regular text-center pt-4 max-w-[48.2rem]">
-                    Journey with us from our inception to today as we revolutionize the way food is enjoyed on the go. Our passion for culinary excellence and commitment to quality have driven us to create a unique dining experience, bringing gourmet flavors right to your doorstep.
-                </div>
-                <div class="grid grid-cols-3 gap-16 pt-8">
-                    <div class="flex flex-col justify-evenly text-center gap-12">
-                        <div><img class="h-[278px] w-[326px]" src="./images/about_us_1.avif" alt="Zeal Taste food truck" /></div>
-                        <div>
-                            <a class="zeal-social-item gap-6" target="_" href="https://youtube.com">
-                                <div><img class="h-[40px] w-[40px]" src="./images/icon_youtube_white.svg" alt="Zeal Taste youtube" /></div>
-                                <h3 class="zeal-heading-h4">14K+</h3>
-                                <div class="zeal-subscribe-text">subscribe</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="">
-                        <img class="h-[504px] w-[310px]" src="./images/about_us_2.avif" alt="Zeal Taste food truck" />
-                    </div>
-                    <div class="flex flex-col justify-evenly text-center gap-12">
-                        <div>
-                            <a class="zeal-social-item" target="_" href="https://instagram.com">
-                                <img class="h-[40px] w-[40px]" src="./images/icon_instagram_white.svg" alt="Zeal Taste youtube" />
-                                <h3 class="zeal-heading-h4">14K+</h3>
-                                <div class="zeal-subscribe-text">follow us</div>
-                            </a>
-                        </div>
-                        <div><img class="h-[278px] w-[326px]" src="./images/about_us_3.avif" alt="Zeal Taste food truck" /></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="pt-26 pb-26">
-            <div id="section-delicacies" class="global-padding flex flex-col justify-center items-center">
-                <div class="zeal-overline-text">FEATURED DELICACIES</div>
-                <h2 class="zeal-heading-h2 pt-4">Signature Selections</h2>
-                <div class="grid grid-cols-2 pt-8">
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item">
-                            <img class="h-[200px] w-[199px]" src="./images/trufflemac.avif" alt="Zeal Taste Truffle Mac & Cheese">
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Truffle Mac & Cheese</div>
-                                <div class="zeal-text-size-small">Creamy macaroni and cheese infused with the rich aroma of truffle oil, topped with a crispy breadcrumb crust. A luxurious twist on a classic comfort dish.</div>
+        <section id="section-hero" class="flex flex-col bg-light-orange justify-center py-12 lg:py-20 lg:relative">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="hero-grid" class="flex flex-col gap-10 justify-start place-items-center md:gap-16 md:justify-center lg:gap-44 lg:flex-row">
+                        <div id="hero-content" class="flex relative flex-col text-center justify-center items-center max-w-none gap-2.5 justify-items-center md:gap-6 lg:gap-6 lg:place-items-start lg:max-w-[550px] lg:w-full lg:relative">
+                            <div class="zeal-overline-text">SAVORY WHEELS</div>
+                            <h1 class="hero-heading">Zeal Taste: Culinary Delights on Wheels</h1>
+                            <div class="max-w-[80%] text-center md:max-w-[60%] lg:max-w-md lg:w-full lg:text-left">
+                                <p>Bringing Gourmet Street Food to Your Neighbourhood - Fresh, Flavorful, Fast!</p>
                             </div>
-                            <div class="zeal-price-tag">$12</div>
+                            <a class="zeal-button" target="_blank" href="#footer">Book Your Table</a>
                         </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item"">
-                            <div><img class="h-[200px] w-[199px]" src="./images/beefsliders.avif" alt="Zeal Taste Gourmet Beef Sliders"></div>
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Gourmet Beef Sliders</div>
-                                <div class="zeal-text-size-small">Juicy beef patties grilled to perfection, served on toasted brioche buns with caramelized onions, sharp cheddar, and a tangy aioli sauce.</div>
-                            </div>
-                            <div class="zeal-price-tag">$15</div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item"">
-                            <div><img class="h-[200px] w-[199px]" src="./images/shrimptaco.avif" alt="Zeal Taste Shrimp Tacos"></div>
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Spicy Shrimp Tacos</div>
-                                <div class="zeal-text-size-small">Fresh shrimp marinated in a spicy blend, grilled and served in soft tortillas with crunchy slaw, avocado crema, and a zesty lime drizzle.</div>
-                            </div>
-                            <div class="zeal-price-tag">$14</div>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="zeal-delicacy-item"">
-                            <div><img class="h-[200px] w-[199px]" src="./images/vegtempura.avif" alt="Zeal Taste Vegetable Tempura"></div>
-                            <div class="flex flex-col justify-center items-center gap-6">
-                                <div class="zeal-heading-h3">Vegetable Tempura</div>
-                                <div class="zeal-text-size-small">A colorful assortment of seasonal vegetables lightly battered and fried to a golden crisp, accompanied by a savory dipping sauce and a side of pickled ginger.</div>
-                            </div>
-                            <div class="zeal-price-tag">$10</div>
+                        <div id="hero-img-wrapper" class="order-[-9999] max-w-[21.4375rem] pt-[24rem] justify-center items-center flex relative w-full h-full md:order-[-1] md:max-w-[25.0625rem] md:pt-[28.5rem] lg:order-[0]">
+                            <img loading="lazy" class="object-cover object-[50%_50%] w-full h-full absolute mt-0 inset-0 rounded-tl-[14.875rem] rounded-tr-[14.875rem]" src="./images/landing_hero.avif" alt="Zeal Taste food truck" />
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="bg-mint pt-26 pb-26">
-            <div id="section-aboutus" class="global-padding flex flex-col justify-center items-center">
-                <div class="zeal-overline-text">ABOUT US</div>
-                <h2 class="zeal-heading-h2 pt-4">Voices of Flavor</h2>
-                <div class="grid grid-cols-2 pt-8">
-                    <div class="flex flex-col p-6"><img class="h-[600px] w-[475px]" src="./images/about_us.avif" alt="Zeal Taste About Us"></div>
-                    <div class="flex flex-col justify-center gap-12">
-                        <div class="text-left"><img class="h-[31] w-[45]" src="./images/icon_quote_light_orange.svg" alt="Zeal Taste Quote"></div>
-                        <div class="zeal-heading-h3">"Zeal Taste is a revelation in street food! The gourmet dishes are not only delicious but also beautifully presented. The food truck experience is both convenient and indulgent. I can't get enough of their truffle mac & cheese!"</div>
-                        <div>
-                            <div class="font-bold text-[1.5rem] leading-8 text-dark-green">Sophia Martinez</div>
-                            <div>San Francisco, CA</div>
+        <section id="section-feature" class="flex flex-col justify-center py-12">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="section-feature-wrapper" class="flex flex-col justify-center items-center md:block md:justify-between">
+                        <div class="grid grid-cols-1 max-w-xs ml-auto mr-auto gap-12 md:grid-cols-3 md:max-w-full md:gap-12 lg:gap-32">
+                            <div class="flex flex-col items-center gap-7 px-3.5 md:justify-start">
+                                <div class="zeal-feature-icon-wrapper">
+                                    <img class="w-[40px] h-[40px]" src="./images/icon_location_white.svg" alt="Zeal Taste location" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center self-stretch gap-2 text-left">
+                                    <h3 class="zeal-heading-h3">Find Us</h3>
+                                    <div class="zeal-featured-text max-w-[14.6875rem]">1234 Innovation Drive Suite 567 Cityville, State 89012 Country</div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center gap-7 px-3.5">
+                                <div class="zeal-feature-icon-wrapper">
+                                    <img class="w-[40px] h-[40px]" src="./images/icon_calendar_white.svg" alt="Zeal Taste hours of operation" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center self-stretch gap-2 text-left">
+                                    <h3 class="zeal-heading-h3">Open Hours</h3>
+                                    <div class="zeal-featured-text max-w-[14.6875rem]">
+                                        <div>Mon To Fri</div>
+                                        <div>9:00 AM - 9:00 PM</div>
+                                        <div>Sat 9:00 AM - 10 PM</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center gap-7 px-3.5">
+                                <div class="zeal-feature-icon-wrapper">
+                                    <img class="w-[40px] h-[40px]" src="./images/icon_calendar_white.svg" alt="Zeal Taste reservations" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center self-stretch gap-2 text-left">
+                                    <h3 class="zeal-heading-h3">Reservation</h3>
+                                    <div class="zeal-featured-text max-w-[14.6875rem]">+1 (800) 555-1234, abc@zealtaste.com</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="pt-26 pb-26">
-            <div id="section-feature-wrapper" class="global-padding flex flex-col justify-center items-center">
-                <div class="grid grid-cols-3 gap-[5rem] p-6 justify-center max-w-[1090px] ml-auto mr-auto">
-                    <div class="flex flex-row gap-4 justify-start items-center">
-                        <div class="zeal-feature-icon-wrapper"><img class="h-[40px] w-[40px]" src="./images/dollar_sign.svg" alt="Zeal Taste Reasonable Prices"/></div>
-                        <div class="zeal-heading-h3">Reasonable Prices</div>
-                    </div>
-                    <div class="flex flex-row gap-4 justify-start items-center">
-                        <div class="zeal-feature-icon-wrapper"><img class="h-[40px] w-[40px]" src="./images/couch.svg" alt="Zeal Taste Cozy Atmosphere"/></div>
-                        <div class="zeal-heading-h3">Cozy Atmosphere</div>
-                    </div>
-                    <div class="flex flex-row gap-4 justify-start items-center">
-                        <div class="zeal-feature-icon-wrapper"><img class="h-[40px] w-[40px]" src="./images/award.svg" alt="Zeal Taste Good Quality Products"/></div>
-                        <div class="zeal-heading-h3">Good Quality Products</div>
+        <section class="bg-mint flex flex-col justify-center py-12">
+            <div class="global-padding">
+                <div class="container-large">
+                    <div id="section-ourstory" class="flex flex-col gap-[6.25rem]">
+                        <div id="container-ourstory" class="grid grid-cols-1 w-full gap-10">
+                            <div id="content-ourstory" class="flex flex-col text-center items-center justify-center">
+                                <div class="zeal-overline-text pb-[.625rem]">OUR STORY</div>
+                                <h2 class="zeal-heading-h2 pb-[.625rem]">The Zeal Taste Adventure</h2>
+                                <div class="zeal-text-size-regular text-center pt-4 w-full max-w-[48.2rem]">
+                                    Journey with us from our inception to today as we revolutionize the way food is enjoyed on the go. Our passion for culinary excellence and commitment to quality have driven us to create a unique dining experience, bringing gourmet flavors right to your doorstep.
+                                </div>
+                            </div>
+                            <div id="wrapper-social-ourstory-main" class="flex flex-col justify-center items-center gap-0 md:gap-[4.25rem] lg:flex-row lg:items-start">
+                                <div id="wrapper-social-ourstory-1" class="flex flex-col relative justify-center items-center self-stretch w-auto gap-0 md:gap-[4.5rem] md:flex-row md:w-full lg:gap-[79px] lg:flex-col">
+                                    <div class="w-full max-w-[21.25rem] h-full pt-72 relative">
+                                        <img class="object-cover rounded-tl-[8.6875rem] rounded-bl-[8.6875rem] absolute inset-0 max-h-[460px] w-full h-full" src="./images/about_us_1.avif" alt="Zeal Taste food truck" />
+                                    </div>
+                                    <a class="zeal-social-item" target="_blank" href="https://youtube.com">
+                                        <div><img class="h-[40px] w-[40px]" src="./images/icon_youtube_white.svg" alt="Zeal Taste youtube" /></div>
+                                        <h3 class="zeal-heading-h4">14K+</h3>
+                                        <div class="zeal-subscribe-text">subscribe</div>
+                                    </a>
+                                </div>
+                                <div id="wrapper-social-ourstory-2" class="max-w-[21.4375rem] pt-[34.9375rem] h-full w-full relative sm:pt-[42.4375rem] md:max-w-[26rem]">
+                                    <img class="object-cover rounded-[13rem] w-full h-full absolute inset-0 max-h-[none] lg:h-[679px] lg:w=[375px]" src="./images/about_us_2.avif" alt="Zeal Taste food truck" />
+                                </div>
+                                <div id="wrapper-socical-ourstory-3" class="flex flex-col relative justify-center items-center self-stretch w-auto gap-0 md:gap-[4.5rem] md:flex-row md:w-full lg:gap-[79px] lg:flex-col">
+                                    <a class="zeal-social-item" target="_blank" href="https://instagram.com">
+                                        <img class="h-[40px] w-[40px]" src="./images/icon_instagram_white.svg" alt="Zeal Taste instagram" />
+                                        <h3 class="zeal-heading-h4">14K+</h3>
+                                        <div class="zeal-subscribe-text">subscribe</div>
+                                    </a>
+                                    <div class="w-full max-w-[21.25rem] h-full pt-72 relative">
+                                        <img class="object-cover rounded-tr-[8.6875rem] rounded-br-[8.6875rem] absolute inset-0 max-h-[460px] w-full h-full" src="./images/about_us_3.avif" alt="Zeal Taste food truck" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="bg-dark-green pt-26 pb-26">
-            <div id="section-reservation" class="global-padding flex flex-col justify-center items-center">
-                <div class="w-[100%] max-w-[35.9375rem] flex flex-col justify-center items-center">
-                <div class="zeal-overline-text">BOOK YOUR TABLE</div>
-                <h2 class="zeal-heading-h2 text-white pt-4">Make a Reservation</h2>
-                <div class="pt-8">Call +1 (800) 555-1234 from 5a - 11p daily, or book online</div>
-                <div>Reservations required for parties of 4 or more.</div>
-                <form class="flex flex-col pt-8 pb-8 w-[100%]" method="get">
-                    <div class="grid grid-cols-1 gap-4">
-                        <input class="zeal-form-input" type="text" placeholder="Your name" />
+        <section class="flex flex-col justify-center py-12">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="section-delicacies" class="grid grid-cols-1 w-full gap-10">
+                        <div class="flex flex-col justify-center items-center">
+                            <div class="zeal-overline-text">FEATURED DELICACIES</div>
+                            <h2 class="zeal-heading-h2 pt-4">Signature Selections</h2>
+                        </div>
+                        <div id="menu-list" class="grid grid-cols-1 gap-4 px-0 place-items-center md:gap-12 md:px-6 lg:grid-cols-2">
+                            <div class="zeal-delicacy-item">
+                                <div class="zeal-item-wrap">
+                                    <img class="w-[150px] object-cover rounded-full h-full md:w-[12.5rem]" src="./images/trufflemac.avif" alt="Zeal Taste Truffle Mac & Cheese" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center gap-2.5">
+                                    <div class="zeal-heading-h3">Truffle Mac & Cheese</div>
+                                    <div class="zeal-text-size-small">Creamy macaroni and cheese infused with the rich aroma of truffle oil, topped with a crispy breadcrumb crust. A luxurious twist on a classic comfort dish.</div>
+                                </div>
+                                <div class="zeal-price-tag">$12</div>
+                            </div>
+                            <div class="zeal-delicacy-item">
+                                <div class="zeal-item-wrap">
+                                    <img class="w-[150px] object-cover rounded-full h-full md:w-[12.5rem]" src="./images/beefsliders.avif" alt="Zeal Taste Gourmet Beef Sliders" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center gap-2.5">
+                                    <div class="zeal-heading-h3">Gourmet Beef Sliders</div>
+                                    <div class="zeal-text-size-small">Juicy beef patties grilled to perfection, served on toasted brioche buns with caramelized onions, sharp cheddar, and a tangy aioli sauce.</div>
+                                </div>
+                                <div class="zeal-price-tag">$15</div>
+                            </div>
+                            <div class="zeal-delicacy-item">
+                                <div class="zeal-item-wrap">
+                                    <img class="w-[150px] object-cover rounded-full h-full md:w-[12.5rem]"  src="./images/shrimptaco.avif" alt="Zeal Taste Shrimp Tacos" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center gap-2.5">
+                                    <div class="zeal-heading-h3">Spicy Shrimp Tacos</div>
+                                    <div class="zeal-text-size-small">Fresh shrimp marinated in a spicy blend, grilled and served in soft tortillas with crunchy slaw, avocado crema, and a zesty lime drizzle.</div>
+                                </div>
+                                <div class="zeal-price-tag">$14</div>
+                            </div>
+                            <div class="zeal-delicacy-item">
+                                <div class="zeal-item-wrap">
+                                    <img class="w-[150px] object-cover rounded-full h-full md:w-[12.5rem]" src="./images/vegtempura.avif" alt="Zeal Taste Vegetable Tempura" />
+                                </div>
+                                <div class="flex flex-col justify-center items-center gap-2.5">
+                                    <div class="zeal-heading-h3">Vegetable Tempura</div>
+                                    <div class="zeal-text-size-small">A colorful assortment of seasonal vegetables lightly battered and fried to a golden crisp, accompanied by a savory dipping sauce and a side of pickled ginger.</div>
+                                </div>
+                                <div class="zeal-price-tag">$10</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="grid grid-cols-2 gap-4">
-                        <input class="zeal-form-input" type="tel" placeholder="Phone" />
-                        <input class="zeal-form-input" type="email" placeholder="Email" />
-                        <input class="zeal-form-input" type="datetime" placeholder="Date time" />
-                        <input class="zeal-form-input" type="number" placeholder="Seats" />
-                    </div>
-                    <div class="grid grid-cols-1 gap-4">
-                        <textarea class="zeal-form-input resize-none min-h-40 pt-[.75rem] text-[1rem]" maxlength="5000" placeholder="Message"></textarea>
-                    </div>
-                    <input type="submit" class="zeal-button self-center" value="Book Your Table" />
-                </form>
-
-                
-                <div class="self-center">Developed By <a class="hover:text-white" href="http://zealousweb.com" target="_blank">ZealousWeb</a></div>
-                <div class="self-center"><a class="hover:text-white" href="https://webflow.com/templates/html/zealtaste-food-website-template#:~:text=Zeal%20Taste%20is%20a%20sleek,food%20trucks%20and%20culinary%20ventures." target="_blank">Licenses</a>
-                
+                </div>
             </div>
-        </div>
+        </section>
+
+        <section class="bg-mint flex flex-col justify-center py-12">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="section-aboutus" class="grid grid-cols-1 gap-10 w-full lg:gap-[3.75rem]">
+                        <div class="flex flex-col justify-center items-center text-center">
+                            <div class="zeal-overline-text">ABOUT US</div>
+                            <h2 class="zeal-heading-h2 pt-4">Voices of Flavor</h2>
+                        </div>
+                        <div class="flex flex-col items-center justify-start gap-[1.875rem] lg:gap-[6.25rem] lg:items-start lg:flex-row">
+                            <div class="flex flex-col items-center justify-center relative w-full h-full max-w-[21.4375rem] pt-[27.125rem] lg:max-w-[29.6875rem] lg:pt-[37.5rem] lg:justify-self-start">
+                                <img class="object-cover rounded-tl-[14.875rem] rounded-tr-[14.875rem] w-full h-full absolute inset-0" src="./images/about_us.avif" alt="Zeal Taste About Us" />
+                            </div>
+                            <div class="flex flex-col justify-start items-start w-full gap-[1.875rem] lg:gap-[3.75rem] lg:max-w-[35-625rem]">
+                                <div class="text-left"><img class="h-[31] w-[45]" src="./images/icon_quote_light_orange.svg" alt="Zeal Taste Quote"></div>
+                                <div class="zeal-heading-h3">"Zeal Taste is a revelation in street food! The gourmet dishes are not only delicious but also beautifully presented. The food truck experience is both convenient and indulgent. I can't get enough of their truffle mac & cheese!"</div>
+                                <div class="flex flex-col gap-1">
+                                    <div class="font-bold text-[1.5rem] leading-8 text-dark-green">Sophia Martinez</div>
+                                    <div>San Francisco, CA</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <section class="flex flex-col justify-center py-12 lg:py-[6.25rem]">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="section-feature-wrapper" class="flex flex-col">
+                        <div class="grid grid-cols-1 gap-10 w-full max-w-[1090px] ml-auto mr-auto lg:grid-cols-3">
+                            <div class="flex flex-row gap-5 px-0 justify-start items-center">
+                                <div class="zeal-feature-icon-wrapper">
+                                    <img class="max-w-[2.5rem]" src="./images/dollar_sign.svg" alt="Zeal Taste Reasonable Prices"/>
+                                </div>
+                                <div class="flex flex-col gap-2 justify-center self-stretch items-center text-left"><h3 class="zeal-heading-h3 ">Reasonable Prices</h3></div>
+                            </div>
+                            <div class="flex flex-row gap-4 justify-start items-center">
+                                <div class="zeal-feature-icon-wrapper">
+                                    <img class="max-w-[2.5rem]" src="./images/couch.svg" alt="Zeal Taste Cozy Atmosphere"/>
+                                </div>
+                                <div class="zeal-heading-h3">Cozy Atmosphere</div>
+                            </div>
+                            <div class="flex flex-row gap-4 justify-start items-center">
+                                <div class="zeal-feature-icon-wrapper">
+                                    <img class="max-w-[2.5rem]" src="./images/award.svg" alt="Zeal Taste Good Quality Products"/>
+                                </div>
+                                <div class="zeal-heading-h3">Good Quality Products</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark-green flex flex-col justify-center py-12 md:py-16">
+            <div class="global-padding">
+                <div class="container-medium">
+                    <div id="section-reservation" class="flex flex-col justify-center items-center">
+                        <div class="w-[100%] max-w-[35.9375rem] flex flex-col justify-center items-center text-center text-white-60">
+                            <div class="zeal-overline-text">BOOK YOUR TABLE</div>
+                            <h2 class="zeal-heading-h2 text-white pt-4">Make a Reservation</h2>
+                            <div class="pt-8">Call +1 (800) 555-1234 from 5a - 11p daily, or book online</div>
+                            <div class="">Reservations required for parties of 4 or more.</div>
+                            <form class="flex flex-col pt-8 pb-8 w-[100%]" method="get">
+                                <div class="grid grid-cols-1 gap-4">
+                                    <input class="zeal-form-input" type="text" placeholder="Your name" />
+                                </div>
+                                <div class="grid grid-cols-2 gap-4">
+                                    <input class="zeal-form-input" type="tel" placeholder="Phone" />
+                                    <input class="zeal-form-input" type="email" placeholder="Email" />
+                                    <input class="zeal-form-input" type="datetime" placeholder="Date time" />
+                                    <input class="zeal-form-input" type="number" placeholder="Seats" />
+                                </div>
+                                <div class="grid grid-cols-1 gap-4">
+                                    <textarea class="zeal-form-input resize-none min-h-40 pt-[.75rem] text-[1rem]" maxlength="5000" placeholder="Message"></textarea>
+                                </div>
+                                <input type="submit" class="zeal-button self-center" value="Book Your Table" />
+                            </form>
+
+                            
+                            <div class="self-center">Developed By <a class="hover:text-white" href="http://zealousweb.com" target="_blank">ZealousWeb</a></div>
+                            <div class="self-center"><a class="hover:text-white" href="https://webflow.com/templates/html/zealtaste-food-website-template#:~:text=Zeal%20Taste%20is%20a%20sleek,food%20trucks%20and%20culinary%20ventures." target="_blank">Licenses</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
     </main>
 </body>
 </html>
